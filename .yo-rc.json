@@ -1,0 +1,31 @@
+{
+  "generator-ngx-rocket": {
+    "version": "10.0.0",
+    "props": {
+      "location": "path",
+      "strict": true,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "usePrefix": true,
+      "target": ["web", "cordova"],
+      "mobile": ["android"],
+      "ui": "material",
+      "layout": "side-menu",
+      "features": ["pwa", "lazy", "e2e"],
+      "languages": ["es-ES"],
+      "tools": ["prettier", "hads"],
+      "utility": [],
+      "deploy": "none",
+      "appName": "MowinTechTest",
+      "projectName": "mowin-tech-test",
+      "packageManager": "npm",
+      "desktop": [],
+      "pwa": true,
+      "auth": false,
+      "lazy": true,
+      "e2e": true,
+      "angulartics": false
+    }
+  }
+}
