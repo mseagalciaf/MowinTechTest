@@ -1,0 +1,27 @@
+.row {
+  padding: 0%;
+  margin: 0%;
+  justify-content: center;
+}
+
+.carrousel,
+.div-image {
+  padding: 0%;
+  margin: 0%;
+  width: 75vw;
+  height: 90vh;
+  cursor: pointer;
+}
+
+.div-image,
+img {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.image {
+  width: 100px;
+  margin: 0 auto;
+}

@@ -1,0 +1,13 @@
+<div class="row">
+  <ngb-carousel *ngIf="heroes" class="carrousel">
+    <ng-template ngbSlide class="template" *ngFor="let heroe of heroes">
+      <div class="div-image" (click)="viewMore(heroe.id)">
+        <img class="img-fluid" [src]="heroe.image" alt="Random first slide" />
+      </div>
+      <div class="carousel-caption">
+        <h3>{{ heroe.name }}</h3>
+        <p>{{ heroe.description }}</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>

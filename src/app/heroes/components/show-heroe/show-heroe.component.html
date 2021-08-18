@@ -1,0 +1,23 @@
+<div class="row">
+  <mat-card>
+    <mat-card-title translate>{{ heroe.name }}</mat-card-title>
+    <p>
+      <img class="image" [src]="heroe.image" alt="angular logo" />
+    </p>
+    <mat-card-content>
+      <p class="description">{{ heroe.description }}</p>
+      <h4>
+        Publicado: <span class="text-info">{{ heroe.published }}</span>
+      </h4>
+      <h4>
+        Autor: <span class="text-info">{{ heroe.autor }}</span>
+      </h4>
+      <h4>
+        País: <span class="text-info">{{ heroe.country }}</span>
+      </h4>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="accent" (click)="goToBack()">Regresar</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

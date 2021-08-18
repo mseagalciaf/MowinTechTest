@@ -16,12 +16,17 @@
       <nav>
         <mat-list>
           <mat-divider></mat-divider>
-          <a mat-list-item routerLink="/home" routerLinkActive="active" (click)="isMobile && sidenav.close()">
-            <span translate>Home</span>
+          <a mat-list-item routerLink="/heroes/list" routerLinkActive="active" (click)="isMobile && sidenav.close()">
+            <span translate>Listado de Heroes</span>
           </a>
           <mat-divider></mat-divider>
-          <a mat-list-item routerLink="/about" routerLinkActive="active" (click)="isMobile && sidenav.close()">
-            <span translate>About</span>
+          <a
+            mat-list-item
+            routerLink="/heroes/carrousel"
+            routerLinkActive="active"
+            (click)="isMobile && sidenav.close()"
+          >
+            <span translate>Carrusel de heroes</span>
           </a>
           <mat-divider></mat-divider>
         </mat-list>
